@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="shortcut icon" href="../icon.ico" type="image/vnd.microsoft.icon">
+  <title>T. O.</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;350;400;500;600&display=swap" rel="stylesheet">
+  <style>
+    ::selection {
+      background: #90EAC4;
+      color: black;
+    }
+    #top h1::before{
+      background: #90EAC4;
+    }
+    div#gallery > div > span > span {
+      border: 0.5rem solid #90EAC4;
+    }
+
+    #top h1::before{
+      content: '';
+      width: 0%;
+      height: 2rem;
+      transform: translate(-2.5%,3rem);
+      position: absolute;
+      border-radius: 10px;
+      z-index: -1;
+      transition: width 1s;
+    }
+
+    div span#index h4::before {
+      background: #90EAC4;
+    }
+  </style>
+  <link rel="stylesheet" href="../flex.css">
+</head>
+
+<body onkeydown="keyd(event)">
+  <div id="top" name="top" class="reverse">
+  <span>
+    <img src="0.jpg"></img>
+  </span>
+  <span>
+    <span style="display:flex; margin-bottom: 1rem; align-items:center;" id="title">
+      <span>
+        <h1>T. O.</h1>
+      </span>
+      <span id="space"></span>
+      <span>
+        <h4 style="margin: 0;">EXHIBITION TITLE</h4>
+        <h2 style="padding: 0;"><i>Colorless</i></h2>
+      </span>
+    </span>
+    <h4>INDEX</h4>
+    <ul>
+      <li><a href="#cr">
+          <h3>Curatorial Rationale</h3>
+        </a></li>
+    </ul>
+    <span id="index">
+      <h4>WORKS</h4>
+      <ul style="width:100%">
+        <li><a href="#works">
+            <h3>3 Photographs</h3>
+          </a></li>
+        <li><a href="#w2">
+            <h3>4 Illustrations</h3>
+          </a></li>
+        <li><a href="#w3">
+            <h3>Sketch</h3>
+          </a></li>
+        <li><a href="#w4">
+            <h3>Drawing</h3>
+          </a></li>
+      </ul>
+    </span>
+    <ul>
+      <li><a href="#gallery">
+          <h3>Gallery</h3>
+        </a></li>
+    </ul>
+  </span>
+</div>
+  <div id="cr" name="cr">
+    <h2 class="t">RATIONALE</h2>
+    <p>The theme of my exhibition is “Colorless.” I chose this theme because I wanted to focus on what the lack of color can bring to an artwork. This is why the theme is “Colorless,” not “Monochrome.” I have tried to explore this theme in different ways: focusing on texture through my photographs, depth through my illustrations, form through my sketch, and line through my drawing. My works all have very minimal names such as “3 Photographs” because I want the viewer to draw their own conclusions as to what colorless can bring to an artwork, unaffected by my opinion and thoughts. I used different mediums and methodologies in my body of work so that each piece can most effectively represent my intention for that work.</p>
+    <p>The three photographs of animals, titled 3 Photographs, were originally inspired by David Yarrow, a British wildlife photographer. Although most of his photographs are taken in Africa and tend to focus on the powerfulness of wild animals, I used his style and some of his techniques to explore the texture that the lack of colors can accentuate. From the start, I focused on taking photographs of animals that have fur or rough skin so that I could use lighting to bring them out. This is why 2 out of the 3 animals in the photographs have fur. But through my experimentation, I discovered that water can also create texture in a photograph, which is why there is a photograph of koi fish. I utilized natural lighting to draw attention to the animal and also used contrasts to bring out the roughness. The four square illustrations, titled 4 Illustrations, focus on depth. I was inspired by illusion art. By artificially creating shadows in the illustration, it makes it seem as though there is depth in a 2-dimensional illustration. The use of digital art helped me create the uniform shadows necessary to make the illusion more realistic. The ink sketch of a cityscape, titled Sketch, focuses on form. I was inspired by Claude Monet’s pencil sketches where he only used black lines to draw complex landscapes and scenery. Similarly, by only using black lines in this work, I emphasized the forms of the buildings. The drawing of 4 people, titled Drawing, focuses on line. By removing colors and simplifying the shapes, I was able to emphasize the lines that make up the silhouette of the person.</p>
+  </div>
+
+  <h2 class="t" id="works" name="works">WORKS</h2>
+  <div id="w1" name="w1" class="normal">
+    <span>
+  <h2><i>3 Photographs</i></h2>
+  <img src="1-1.jpg" />
+  </span>
+  <span>
+  <h2><i>3 Photographs</i></h2>
+  <small>MEDIUM</small><br>
+  <p>Print</p>
+  <small>DIMENSIONS</small><br>
+  <p>129.0 &times; 59.4 cm</p>
+    <small>CAPTION</small><br>
+    <p>Through this artwork, I wanted to explore the texture that colorless can bring out. The texture of the water splash is brought out in the leftmost picture. The facial expression and fur of the gorilla is accentuated in the middle picture. The bark of the tree and the fur of the koala is emphasized in the rightmost picture. The pictures are enhanced through the lack of color since the texture helps to tell a better story through them.
+    </p>
+    </span>
+  </div>
+  <div id="w2" name="w2" class="reverse">
+  <span>
+    <h2><i>4 Illustrations</i></h2>
+    <img src="2-1.jpg" />
+  </span>
+  <span>
+    <h2><i>4 Illustrations</i></h2>
+    <small>MEDIUM</small><br>
+    <p>Print</p>
+    <small>DIMENSIONS</small><br>
+    <p>59.4 &times; 59.4 cm</p>
+    <small>CAPTION</small><br>
+    <p>Through this artwork, I wanted to explore the illusion of depth that colorless can create. The top right illustration creates a hole. The top left illustration creates a bumpy pattern on the surface. The bottom right illustration creates a hole in the shape of the word "depth." The bottom left illustration creates a flower that blooms towards the viewer. All of these are illusions, but effectively show how depth can be created through colorless.
+    </p>
+  </span>
+</div>
+
+<div id="w3" name="w3" class="normal">
+  <span>
+    <h2><i>Sketch</i></h2>
+    <img src="3.jpg" />
+  </span>
+  <span>
+    <h2><i>Sketch</i></h2>
+    <small>MEDIUM</small><br>
+    <p>Ink on paper</p>
+    <small>DIMENSIONS</small><br>
+    <p>42 &times; 59.4 cm</p>
+    <small>CAPTION</small><br>
+    <p>Through this artwork, I wanted to display how colorless can accentuate the form. The original scene is from Manhattan. Since all of the buildings have a unique and interesting shape, I thought it would be greate to showcase it through colorless. The lack of color removes the unnecessary elements of the scenery and brings out the pure form of the buildings.
+    </p>
+  </span>
+</div>
+
+<div id="w4" name="w4" class="reverse">
+  <span>
+    <h2><i>Drawing</i></h2>
+    <img src="4.jpg"/>
+  </span>
+  <span>
+    <h2><i>Drawing</i></h2>
+    <small>MEDIUM</small><br>
+    <p>Print</p>
+    <small>DIMENSIONS</small><br>
+    <p>42 &times; 59.4 cm</p>
+    <small>CAPTION</small><br>
+    <p>Through this artwork, I wanted to explore the lines that can be emphasized through colorless. The original scene is from a trip we took to Yamanaka lake in Japan. By making this artwork colorless, the lines that construct the shapes of the people and objects were highlighted.
+    </p>
+  </span>
+</div>
+
+
+
+<div id="gallery" name="gallery">
+  <h2 class="t">GALLERY</h2>
+  <div onclick="image(0)">
+    <span>
+      <span></span>
+      <span></span>
+    </span>
+    <h3 id="view" style="margin: 145px 0 10px 0"></h3>
+  </div>
+</div>
+<footer style="text-align:center"><small>© 2021-2022 TGUISS DP 10th</small></footer>
+
+
+<div id="img">
+  <span id="imgheader">
+    <h3><i></i></h3>
+    <svg onclick="remove()" width="64" height="64" viewBox="0 0 16.933333 16.933333">
+      <path d="M 3.2339788,3.2339786 13.699355,13.699355" />
+      <path d="M 3.2339788,13.699355 13.699355,3.2339786" />
+    </svg>
+  </span>
+  <span id="viewbox">
+    <span id="image"></span>
+    <span onclick="image(imgnum-1)" id="leftp">
+      <svg width="64" height="64" viewBox="0 0 16.933333 16.933333" id="left">
+        <path d="M 11.129783,3.2339791 5.8970947,8.4666671 11.129783,13.699354" />
+      </svg>
+    </span>
+    <span onclick="image(imgnum+1)" id="rightp">
+      <svg width="64" height="64" viewBox="0 0 16.933333 16.933333" id="right">
+        <path d="M 5.8035505,3.2339791 11.036239,8.4666671 5.8035505,13.699354" />
+      </svg>
+    </span>
+  </span>
+</div>
+
+
+<script>
+img = [{
+  type: "i",
+  amount: 1,
+  content1: "0.jpg",
+  name:"Colorless"
+}, {
+  type: "i",
+  amount: 4,
+  content1: "1-1.jpg",
+  content2: "1-2.jpg",
+  content3: "1-3.jpg",
+  content4: "1-4.jpg",
+  name:"3 Photographs"
+}, {
+  type: "i",
+  amount: 5,
+  content1: "2-1.jpg",
+  content2: "2-2.jpg",
+  content3: "2-3.jpg",
+  content4: "2-4.jpg",
+  content5: "2-5.jpg",
+  name:"4 Illustrations"
+}, {
+  type: "i",
+  amount: 1,
+  content1: "3.jpg",
+  name:"Sketch"
+}, {
+  type: "i",
+  amount: 1,
+  content1: "4.jpg",
+  name:"Drawing"
+}];
+  var i = 0,
+    v = 0;
+  for (var a = 0; a < img.length; a++) {
+    if (img[a].type == "i") {
+      i += img[a].amount;
+    } else {
+      v += img[a].amount;
+    }
+  }
+  if (i > 0) {
+    document.getElementById('view').innerHTML = "View " + i + " photo";
+  }
+  if (i > 1) {
+    document.getElementById('view').innerHTML += "s";
+  }
+  if (v > 0) {
+    document.getElementById('view').innerHTML += " and " + v + " video";
+  }
+  if (v > 1) {
+    document.getElementById('view').innerHTML += "s";
+  }
+</script>
+<script id="text/javascript" src="../flex.js"></script>
+</body>
+
+</html>
