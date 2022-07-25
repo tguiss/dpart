@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="shortcut icon" href="../icon.ico" type="image/vnd.microsoft.icon">
+  <title>H. K.</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;350;400;500;600&display=swap" rel="stylesheet">
+  <style>
+  ::selection {
+    background: #BBED8D;
+    color: black;
+  }
+    #top h1::before{
+      background: #BBED8D;
+    }
+    div#gallery > div > span > span {
+      border: 0.5rem solid #BBED8D;
+    }
+
+    #top h1::before{
+      content: '';
+      width: 0%;
+      height: 2rem;
+      transform: translate(-2.5%,3rem);
+      position: absolute;
+      border-radius: 10px;
+      z-index: -1;
+      transition: width 1s;
+    }
+
+    div span#index h4::before {
+      background: #BBED8D;
+    }
+  </style>
+
+  <link rel="stylesheet" href="../flex.css">
+</head>
+
+<body onkeydown="keyd(event)">
+  <div id="top" name="top" class="reverse">
+    <span>
+      <img src="0.jpg"></img>
+    </span>
+    <span>
+      <span style="display:flex; margin-bottom: 1rem; align-items:center;" id="title">
+        <span>
+          <h1>H. K.</h1>
+        </span>
+        <span id="space"></span>
+        <span>
+          <h4 style="margin: 0;">EXHIBITION TITLE</h4>
+          <h2 style="padding: 0;"><i>The Flow of Time</i></h2>
+        </span>
+      </span>
+      <h4>INDEX</h4>
+      <ul>
+        <li><a href="#cr">
+            <h3>Curatorial Rationale</h3>
+          </a></li>
+      </ul>
+      <span id="index">
+        <h4>WORKS</h4>
+        <ul style="width:100%">
+          <li><a href="#works">
+              <h3>The One Road that Shapes Me</h3>
+            </a></li>
+          <li><a href="#w2">
+              <h3>Accumulated Achievements</h3>
+            </a></li>
+          <li><a href="#w3">
+              <h3>Are We Killing Nature?</h3>
+            </a></li>
+          <li><a href="#w4">
+              <h3>Negative Legacy for the Future</h3>
+            </a></li>
+        </ul>
+      </span>
+      <ul>
+        <li><a href="#gallery">
+            <h3>Gallery</h3>
+          </a></li>
+      </ul>
+    </span>
+  </div>
+
+  <div id="cr" name="cr">
+    <h2 class="t">RATIONALE</h2>
+    <p>The reason why I chose the flow of time as my theme is because I strongly felt the magnitude of what the flow of time creates from my own experience. While taking classes at DP Visual Arts, I was initially unaware of the meaning of creating artworks. However, through the experience of creating a number of works and receiving feedback over time, I was able to learn how to materialize my ideas and how to develop them in order to communicate them to the audience. Not only in art, but also in DP, there were many situations where I could feel my growth with the passage of time, or experience that a lot of knowledge is created over time. These experiences made me interested in the importance of the flow of time. By creating a piece of work related to this theme, my goals were to learn about the magnitude of what the flow of time can create, both the good and the bad, and to be able to think deeply about the flow of time as a necessary element of life.</p>
+    <p>I think these goals were achieved through the four works that I exhibited. For example, in the first piece, "Accumulated Achievements," I was able to show that not only has a lot of knowledge and discoveries been accumulated over time, but also that they are connected and interact with each other. In the fourth theme, "Negative Legacy for the Future," I was able to focus on a different aspect of how the passage of time can create bad things as well as good things, as I had originally thought.</p>
+    <p>I believe that through these theme-based works, viewers will be able to see the contents of what the "flow of time" has produced from multiple perspectives and explore how they are related to each other. By placing "The One Road That Shapes Me," the most familiar of the four works, in the first position, viewers can relate the theme to themselves. From there, it leads to "Accumulated Achievements" and "Are We Killing Nature? and finally "Negative Legacy for the Future" at the end. I expect that by showing the familiar content first and then gradually expanding the content, viewers will be able to relate the flow of time to themselves as they view the exhibition.</p>
+  </div>
+
+  <h2 class="t" id="works" name="works">WORKS</h2>
+  <div id="w1" name="w1" class="normal">
+    <span>
+      <h2><i>The One Road that Shapes Me</i></h2>
+      <img src="1-1.jpg" />
+    </span>
+    <span>
+      <h2><i>The One Road that Shapes Me</i></h2>
+      <small>MEDIUM</small><br>
+      <p> </p>
+      <small>DIMENSIONS</small><br>
+      <p>35 &times; 0 &times; 24.5 cm</p>
+      <small>CAPTION</small><br>
+      <p>In this work, the car represents me, and the road represents the background of my life. The signboard represents that this road stretches from 過去(my past) to 未来(my future). The other pictures represent my parents' experiences. For example, the police car represents the United States, where my father lived and where police cars frequently patrol. I also used traditional Japanese colors to put the culture of my home country, Japan. In this way, I am expressing that my parents and the various cultures I have experienced have shaped me, and that with them I will move forward into the future.</p>
+    </span>
+  </div>
+
+  <div id="w2" name="w2" class="reverse">
+    <span>
+      <h2><i>Accumulated Achievements</i></h2>
+      <img src="2-1.jpg" />
+    </span>
+    <span>
+      <h2><i>Accumulated Achievements</i></h2>
+      <small>MEDIUM</small><br>
+      <p></p>
+      <small>DIMENSIONS</small><br>
+      <p>20 &times; 20 cm</p>
+      <small>CAPTION</small><br>
+      <p>To imagine "standing on the shoulders of giants," I tried to represent the state of many discoveries and achievements of our predecessors as a single giant. For this purpose, I drew elements of famous great people and inventions such as railroads and electricity with a pen on each plastic plate and pasted them together to make a human figure. I chose plastic as my material because it is transparent, so I can see the overlapping of the plates and the mixing of colors. In this way, I was able to give the sense of historical achievements interacting and connecting with each other.</p>
+    </span>
+  </div>
+
+  <div id="w3" name="w3" class="normal">
+    <span>
+      <h2><i>Are We Killing Nature?</i></h2>
+      <img src="3-1.jpg" />
+    </span>
+    <span>
+      <h2><i>Are We Killing Nature?</i></h2>
+      <small>MEDIUM</small><br>
+      <p></p>
+      <small>DIMENSIONS</small><br>
+      <p>22 &times; 8 &times; 16 cm</p>
+      <small>CAPTION</small><br>
+      <p>The theme of this work is the environment and art. I created this work because I wanted to appeal to environmental issues when conveying something about the environment through art. The left side of the work depicts a landscape rich in nature, while the right side depicts a landscape without any nature due to urbanization. To match the background, only the right side of the flowers in the foreground have withered. This is to raise the issue that environmental changes and urbanization that remove too much of nature kill the nature that should be beautiful and turn it into something faded.</p>
+    </span>
+  </div>
+
+  <div id="w4" name="w4" class="reverse">
+    <span>
+      <h2><i>Negative Legacy for the Future</i></h2>
+      <video autoplay loop muted src="4.mp4"/>
+    </span>
+    <span>
+      <h2><i>Negative Legacy for the Future</i></h2>
+      <small>MEDIUM</small><br>
+      <p>Video</p>
+      <small>DURATION</small><br>
+      <p>18 seconds</p>
+      <small>CAPTION</small><br>
+      <p>This piece is a video piece and I appear in the video dragging a piece of cardboard from left to right. The cardboard has the words "to the future" written on it, and inside it are symbols of social problems we are facing today. For example, a can of CO2 representing global warming. On the other hand, in this video, the left side represents the past and the right side represents the future. By placing the light on the right side, which represents the future in the direction of travel, the message is "If we can solve these problems, we can move toward a bright future.</p>
+    </span>
+  </div>
+
+
+
+  <div id="gallery" name="gallery">
+    <h2 class="t">GALLERY</h2>
+    <div onclick="image(0)">
+      <span>
+        <span></span>
+        <span></span>
+      </span>
+      <h3 id="view" style="margin: 145px 0 10px 0"></h3>
+    </div>
+  </div>
+  <footer style="text-align:center"><small>© 2021-2022 TGUISS DP 10th</small></footer>
+
+
+  <div id="img">
+    <span id="imgheader">
+      <h3><i></i></h3>
+      <svg onclick="remove()" width="64" height="64" viewBox="0 0 16.933333 16.933333">
+        <path d="M 3.2339788,3.2339786 13.699355,13.699355" />
+        <path d="M 3.2339788,13.699355 13.699355,3.2339786" />
+      </svg>
+    </span>
+    <span id="viewbox">
+      <span id="image"></span>
+      <span onclick="image(imgnum-1)" id="leftp">
+        <svg width="64" height="64" viewBox="0 0 16.933333 16.933333" id="left">
+          <path d="M 11.129783,3.2339791 5.8970947,8.4666671 11.129783,13.699354" />
+        </svg>
+      </span>
+      <span onclick="image(imgnum+1)" id="rightp">
+        <svg width="64" height="64" viewBox="0 0 16.933333 16.933333" id="right">
+          <path d="M 5.8035505,3.2339791 11.036239,8.4666671 5.8035505,13.699354" />
+        </svg>
+      </span>
+    </span>
+  </div>
+
+
+  <script>
+  const img = [{
+      type: "i",
+      amount: 1,
+      content1: "0.jpg",
+      name: "The Flow of Time"
+    }, {
+      type: "i",
+      amount: 2,
+      content1: "1-1.jpg",
+      content2: "1-2.jpg",
+      name: "The One Road that Shapes Me"
+    }, {
+      type: "i",
+      amount: 2,
+      content1: "2-1.jpg",
+      content2: "2-2.jpg",
+      name: "Accumulated Achievements"
+    }, {
+      type: "i",
+      amount: 2,
+      content1: "3-1.jpg",
+      content2: "3-2.jpg",
+      name: "Are We Killing Nature?"
+    }, {
+      type: "v",
+      amount: 1,
+      content1: "4.mp4",
+      loop: true,
+      name: "Negative Legacy for the Future"
+    }];
+
+    var i = 0,
+      v = 0;
+    for (var a = 0; a < img.length; a++) {
+      if (img[a].type == "i") {
+        i += img[a].amount;
+      } else {
+        v += img[a].amount;
+      }
+    }
+    if (i > 0) {
+      document.getElementById('view').innerHTML = "View " + i + " photo";
+    }
+    if (i > 1) {
+      document.getElementById('view').innerHTML += "s";
+    }
+    if (v > 0) {
+      document.getElementById('view').innerHTML += " and " + v + " video";
+    }
+    if (v > 1) {
+      document.getElementById('view').innerHTML += "s";
+    }
+  </script>
+  <script id="text/javascript" src="../flex.js"></script>
+</body>
+
+</html>
