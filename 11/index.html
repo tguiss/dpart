@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="shortcut icon" href="../icon.ico" type="image/vnd.microsoft.icon">
+  <title>M. O.</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;350;400;500;600&display=swap" rel="stylesheet">
+  <style>
+  ::selection {
+    background: #ED8DBB;
+    color: white;
+  }
+    #top h1::before{
+      background: #ED8DBB;
+    }
+    div#gallery > div > span > span {
+      border: 0.5rem solid #ED8DBB;
+    }
+
+    #top h1::before{
+      content: '';
+      width: 0%;
+      height: 2rem;
+      transform: translate(-2.5%,3rem);
+      position: absolute;
+      border-radius: 10px;
+      z-index: -1;
+      transition: width 1s;
+    }
+
+    div span#index h4::before {
+      background: #ED8DBB;
+    }
+  </style>
+
+
+  <link rel="stylesheet" href="../flex.css">
+</head>
+
+<body onkeydown="keyd(event)">
+  <div id="top" name="top" class="reverse">
+    <span>
+      <img src="0-1.jpg"></img>
+    </span>
+    <span>
+      <span style="display:flex; margin-bottom: 1rem; align-items:center;" id="title">
+        <span>
+          <h1>M. O.</h1>
+        </span>
+        <span id="space"></span>
+        <span>
+          <h4 style="margin: 0;">EXHIBITION TITLE</h4>
+          <h2 style="padding: 0;"><i>Similarities Found in Differences</i></h2>
+        </span>
+      </span>
+      <h4>INDEX</h4>
+      <ul>
+        <li><a href="#cr">
+            <h3>Curatorial Rationale</h3>
+          </a></li>
+      </ul>
+      <span id="index">
+        <h4>WORKS</h4>
+        <ul style="width:100%">
+          <li><a href="#works">
+              <h3>Place &times; Time</h3>
+            </a></li>
+          <li><a href="#w2">
+              <h3>World &times; Culture</h3>
+            </a></li>
+          <li><a href="#w3">
+              <h3>Art &times; Media</h3>
+            </a></li>
+          <li><a href="#w4">
+              <h3>Love &times; lives</h3>
+            </a></li>
+        </ul>
+      </span>
+      <ul>
+        <li><a href="#gallery">
+            <h3>Gallery</h3>
+          </a></li>
+      </ul>
+    </span>
+  </div>
+
+  <div id="cr" name="cr">
+    <h2 class="t">RATIONALE</h2>
+    <p>My exhibition centers around the concept of “Similarities Found in Differences.” From my experience of living in the USA as a Japanese and interacting with people from different countries, I came to realize that even though everyone is different, there are also many things in common. The selected artworks reflect on similarities found in seemingly different things from multiple perspectives: ①Different times but in the same place ②Different cultures but on the same planet ③Different media but both part of art, and ④Universal love seen in different species.</p>
+    <p>My exhibition begins with 2 artworks in relatively small sizes, introducing the audience to the show. <b><i>Place × Time</i></b> series consists of 6 artworks and expresses transformation over time and urbanization. <b><i>World × Culture</i></b> shows cultural coexistence, and is placed on a rotating table. This lets the audience see both sides of the USA and Japan, and how those 2 sides are put together, representing the world.</p>
+    <p>The next artwork <b><i>Art × Media</i></b> transitions to similarities between different media. Pencil drawing of a plaster cast is placed on an easel, and the digital art version is placed on a white box. This arrangement accentuates the difference between traditional and contemporary art, but also shows how pencil drawing and digital art were integrated, thereby showing that they are both forms of art. Furthermore, the wood of the easel creates unity with wooden clips that hang <b><i>Place × Time</b></i>. I hope to make my exhibition place peaceful by incorporating the warmth of the woods. </p>
+    <p>The final piece <b><i>Love × Lives</i></b> focuses on similarity between all lives. This artwork explores the theme in a broader scope than my other artworks. Hence, I placed this piece at the end to express how every living creature has something in common. <b><i>Art × Media</i></b> is linked to these paintings through a similar color palette of pastel colors, creating soft atmosphere. In the other 3 artworks, I used different media for each object and put them together as a series to show similarity. I took a different approach in this artwork, and used the same media for both paintings to visually show the similarity.</p>
+    <p>I believe that if we try to see similarities while acknowledging the differences at the same time, we can have a better understanding of the world and ourselves. I hope that by the end, the audience may relate to this theme.</p>
+  </div>
+
+  <h2 class="t" id="works" name="works">WORKS</h2>
+  <div id="w1" name="w1" class="normal">
+    <span>
+      <h2><i>Place &times; Time</i></h2>
+      <img src="1-1.jpg" />
+    </span>
+    <span>
+      <h2><i>Place &times; Time</i></h2>
+      <small>MEDIUM</small><br>
+      <p>Pencil and charcoal on paper, Colored pencil on paper, Marker on paper, Photograph, Inkjet print</p>
+      <small>DIMENSIONS</small><br>
+      <p>21 &times; 15 cm</p>
+      <small>CAPTION</small><br>
+      <p>This series shows the past, present and future of Shibuya. By depicting the transformation over time, I want the audience to think about how urbanization can affect our lives, both negatively and positively. Change of time is expressed by different media and decreases in negative space. Inspired by Elena Efremova, I also took matching pictures of the drawings and the actual scenery. This emphasizes that although the 3 scenes look completely different, they are actually depicting the same place.</p>
+    </span>
+  </div>
+
+  <div id="w2" name="w2" class="reverse">
+    <span>
+      <h2><i>World &times; Culture</i></h2>
+      <img src="2-1.jpg" />
+    </span>
+    <span>
+      <h2><i>World &times; Culture</i></h2>
+      <small>MEDIUM</small><br>
+      <p>Japanese watercolor, Markers, Cardboard</p>
+      <small>DIMENSIONS</small><br>
+      <p>18 &times; 14 &times; 14 cm</p>
+      <small>CAPTION</small><br>
+      <p>Through this project, I hope to express cultural coexistence. I made 2 tatebankos (Japanese traditional shadow box): USA and Japan. I used different media and art styles, pop and ukiyo-e, representing each side, showing a sense of cultural diversity. I put 2 tatebankos together to illustrate that although the cultures of the 2 countries are very different, we are all living in the same world. To make this message stronger, I made the composition of tatebankos similar to each other.
+      </p>
+    </span>
+  </div>
+
+  <div id="w3" name="w3" class="normal">
+    <span>
+      <h2><i>Art &times; Media</i></h2>
+      <img src="3-1.jpg" />
+    </span>
+    <span>
+      <h2><i>Art &times; Media</i></h2>
+      <small>MEDIUM</small><br>
+      <p>Pencil on canvas, Digital art, Inkjet print</p>
+      <small>DIMENSIONS</small><br>
+      <p>37 &times; 52 cm</p>
+      <small>CAPTION</small><br>
+      <p>I read about a controversy on whether digital art can be considered real art. This inspired me to combine traditional and digital art to show that even though traditional and digital artworks look completely different, they are both forms of art. I also wish to communicate how traditions and new things can coexist. By placing the pencil drawing of the plaster cast and the digitally combined version next to each other, the audience can see how the 2 types of art were integrated.</p>
+    </span>
+  </div>
+
+  <div id="w4" name="w4" class="reverse">
+    <span>
+      <h2><i>Love &times; lives</i></h2>
+      <img src="4-1.jpg" />
+    </span>
+    <span>
+      <h2><i>Love &times; lives</i></h2>
+      <small>MEDIUM</small><br>
+      <p>Water on watercolor paper, Colored pencil, Crayon, magazine, <i>Washi</i> paper</p>
+      <small>DIMENSIONS</small><br>
+      <p>61 &times; 46 cm</p>
+      <small>CAPTION</small><br>
+      <p>In this project, I hope to convey the message that love has no boundaries regarding species. To express this, I painted mother and child for each giraffe and human. For giraffe, I put magazine strips in various languages to show that love goes beyond race. The usage of warm and cool colors to create form was inspired by Henri Matisse. I used soft colors of watercolor for both artworks to show the similarity between animals and humans. I want the audience to feel a peaceful mood from my artworks.</p>
+    </span>
+  </div>
+
+
+
+    <div id="gallery" name="gallery">
+      <h2 class="t">GALLERY</h2>
+      <div onclick="image(0)">
+        <span>
+          <span></span>
+          <span></span>
+        </span>
+        <h3 id="view" style="margin: 145px 0 10px 0"></h3>
+      </div>
+    </div>
+    <footer style="text-align:center"><small>© 2021-2022 TGUISS DP 10th</small></footer>
+
+
+    <div id="img">
+      <span id="imgheader">
+        <h3><i></i></h3>
+        <svg onclick="remove()" width="64" height="64" viewBox="0 0 16.933333 16.933333">
+          <path d="M 3.2339788,3.2339786 13.699355,13.699355" />
+          <path d="M 3.2339788,13.699355 13.699355,3.2339786" />
+        </svg>
+      </span>
+      <span id="viewbox">
+        <span id="image"></span>
+        <span onclick="image(imgnum-1)" id="leftp">
+          <svg width="64" height="64" viewBox="0 0 16.933333 16.933333" id="left">
+            <path d="M 11.129783,3.2339791 5.8970947,8.4666671 11.129783,13.699354" />
+          </svg>
+        </span>
+        <span onclick="image(imgnum+1)" id="rightp">
+          <svg width="64" height="64" viewBox="0 0 16.933333 16.933333" id="right">
+            <path d="M 5.8035505,3.2339791 11.036239,8.4666671 5.8035505,13.699354" />
+          </svg>
+        </span>
+      </span>
+    </div>
+
+
+    <script>
+    const img = [{
+        type: "i",
+        amount: 2,
+        content1: "0-1.jpg",
+        content2: "0-2.jpg",
+        name: "Similarities Found in Differences"
+      }, {
+        type: "i",
+        amount: 3,
+        content1: "1-1.jpg",
+        content2: "1-2.jpg",
+        content3: "1-3.jpg",
+        name: "Place &times; Time"
+      }, {
+        type: "i",
+        amount: 3,
+        content1: "2-1.jpg",
+        content2: "2-2.jpg",
+        content3: "2-3.jpg",
+        name: "World &times; Culture"
+      }, {
+        type: "i",
+        amount: 3,
+        content1: "3-1.jpg",
+        content2: "3-2.jpg",
+        content3: "3-3.jpg",
+        name: "Art &times; Media"
+      }, {
+        type: "i",
+        amount: 3,
+        content1: "4-1.jpg",
+        content2: "4-2.jpg",
+        content3: "4-3.jpg",
+        name: "Love &times; lives"
+      }];
+      var i = 0,
+        v = 0;
+      for (var a = 0; a < img.length; a++) {
+        if (img[a].type == "i") {
+          i += img[a].amount;
+        } else {
+          v += img[a].amount;
+        }
+      }
+      if (i > 0) {
+        document.getElementById('view').innerHTML = "View " + i + " photo";
+      }
+      if (i > 1) {
+        document.getElementById('view').innerHTML += "s";
+      }
+      if (v > 0) {
+        document.getElementById('view').innerHTML += " and " + v + " video";
+      }
+      if (v > 1) {
+        document.getElementById('view').innerHTML += "s";
+      }
+    </script>
+    <script id="text/javascript" src="../flex.js"></script>
+  </body>
+
+  </html>

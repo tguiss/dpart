@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="shortcut icon" href="../icon.ico" type="image/vnd.microsoft.icon">
+  <title>T. F.</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;350;400;500;600&display=swap" rel="stylesheet">
+  <style>
+  ::selection {
+    background: #D6F075;
+    color: black;
+  }
+    #top h1::before{
+      background: #D6F075;
+    }
+    div#gallery > div > span > span {
+      border: 0.5rem solid #D6F075;
+    }
+
+    #top h1::before{
+      content: '';
+      width: 0%;
+      height: 2rem;
+      transform: translate(-2.5%,3rem);
+      position: absolute;
+      border-radius: 10px;
+      z-index: -1;
+      transition: width 1s;
+    }
+
+    div span#index h4::before {
+      background: #D6F075;
+    }
+  </style>
+
+
+  <link rel="stylesheet" href="../flex.css">
+</head>
+
+<body onkeydown="keyd(event)">
+  <div id="top" name="top" class="reverse">
+    <span>
+      <img src="0-1.jpg"></img>
+    </span>
+    <span>
+      <span style="display:flex; margin-bottom: 1rem; align-items:center;" id="title">
+        <span>
+          <h1>T. F.</h1>
+        </span>
+        <span id="space"></span>
+        <span>
+          <h4 style="margin: 0;">EXHIBITION TITLE</h4>
+          <h2 style="padding: 0;"><i>Indirect Expression of People</i></h2>
+        </span>
+      </span>
+      <h4>INDEX</h4>
+      <ul>
+        <li><a href="#cr">
+            <h3>Curatorial Rationale</h3>
+          </a></li>
+      </ul>
+      <span id="index">
+        <h4>WORKS</h4>
+        <ul style="width:100%">
+          <li><a href="#works">
+              <h3>Shedding</h3>
+            </a></li>
+          <li><a href="#w2">
+              <h3>Shy Love</h3>
+            </a></li>
+          <li><a href="#w3">
+              <h3>Human Ego</h3>
+            </a></li>
+          <li><a href="#w4">
+              <h3>Aging or Growth</h3>
+            </a></li>
+          <li><a href="#w5">
+              <h3>Humans, Nature, Time</h3>
+            </a></li>
+        </ul>
+      </span>
+      <ul>
+        <li><a href="#gallery">
+            <h3>Gallery</h3>
+          </a></li>
+      </ul>
+    </span>
+  </div>
+
+  <div id="cr" name="cr">
+    <h2 class="t">RATIONALE</h2>
+    <p>Do you know that many works of art depict people? However, I challenge to express people without directly depict them. I think it is a simple mistake to think that visual art is about drawing the object directly and visually.</p>
+    <p>There is a common underlying theme of time in several of the works. The jeans suggest the time since they were taken off, the footprints suggest the passage of time as a person walks. The empty house reminds us of the time when people used to live there, and the bowls remind us of the passage of time through human ageing.</p>
+    <p>The dog and the tulip share a common symbol - a large head. However, they have different meanings. The dog is considered to be prettier with a bigger head, and as such it represents the imbalance in the breeding of dogs. On the other hand, the tulip also has a large head, suggesting that it is a spiritual blooming related to the brain. Both of those two pieces are on white boxes, suggesting a connection.</p>
+    <p>The sketch and the oil painting, which contain positive messages about people (loveliness of undressed jeans and my respect for old people), are displayed at about the same level as the viewer's eye level, whereas the bowls and the dog which contain negative impressions (ageing and unethical behaviour towards animals), are placed below the viewer's eye level. As for the footprints, I place them on the floor so that the viewer could recognise them as footprints and imagine the existence of the person who created them.</p>
+    <p>I placed the four pieces vertically because I wanted to emphasise the connection between them. If they were placed horizontally, it would give the impression that the works are independent. In order to arrange the pieces vertically, I placed a white box on the desk and placed bowls on it. It is appropriate to display the bowls on a slightly elevated position because, unlike the dog, they give a positive impression (spiritual flowering) as well as a negative one (ageing).</p>
+    <p>The decorative mirrors in the exhibition space are placed so that the viewer can see themselves. I hope to convey the message that human beings represented by my works includes you, so that each viewer can face the works. The mirrors on either side also emphasise the vertical lines of the four pieces in the middle.</p>
+  </div>
+
+  <h2 class="t" id="works" name="works">WORKS</h2>
+  <div id="w1" name="w1" class="normal">
+    <span>
+      <h2><i>Shedding</i></h2>
+      <img src="1-1.jpg" />
+    </span>
+    <span>
+      <h2><i>Shedding</i></h2>
+      <small>MEDIUM</small><br>
+      <p>Pencil on paper</p>
+      <small>DIMENSIONS</small><br>
+      <p>54.5 &times; 39.3 cm</p>
+      <small>CAPTION</small><br>
+      <p>This is a sketch of my jeans as I took them off. I love it when clothes are left undressed. The idea came to me when I saw a pair of trousers I had taken off to have a bath at night. The reason why I sketched it instead of taking a picture is because I wanted to contrast the seriousness of sketching with the goofiness of undressed jeans. I hope you can see how interesting it is that I took the time to sketch something that people don't see the value in.</p>
+    </span>
+  </div>
+
+  <div id="w2" name="w2" class="reverse">
+    <span>
+      <h2><i>Shy Love</i></h2>
+      <img src="2-1.jpg" />
+    </span>
+    <span>
+      <h2><i>Shy Love</i></h2>
+      <small>MEDIUM</small><br>
+      <p>Print on paper</p>
+      <small>DIMENSIONS</small><br>
+      <p>163 &times; 78 cm</p>
+      <small>CAPTION</small><br>
+      <p>These are the footprints of the traditional Japanese footwear (geta) and high heels. It shows a Japanese man who is secretly falls in love. The idea of using footprints came to me when I saw footprints made after walking through a puddle. Initially, this work was a digital work, made from scanned photographs of footprints collected on paper. However, I wanted to make the footprint as a real size, so I printed the digital data on paper. The intensity of the footprints shows the passage of time.</p>
+    </span>
+  </div>
+
+  <div id="w3" name="w3" class="normal">
+    <span>
+      <h2><i>Human Ego</i></h2>
+      <img src="3-1.jpg" />
+    </span>
+    <span>
+      <h2><i>Human Ego</i></h2>
+      <small>MEDIUM</small><br>
+      <p>Newspaper, Paper clay, Wool, Socks, Frily tape, etc.</p>
+      <small>DIMENSIONS</small><br>
+      <p>14 &times; 9 &times; 18 cm</p>
+      <small>CAPTION</small><br>
+      <p>The idea came from seeing a dog dressed in my neighbourhood. Also, humans, for their own reasons, cruelly breed dogs to make them pretty. The dog in this work, with its smaller size and larger head, suggests a dog that has become ugly as a result of man's continued cruel breeding. I thought that the awkwardness of the figure and the unnaturalness of the clothes it wears would convey the presence of people. I paid attention to the texture to make it look real.</p>
+    </span>
+  </div>
+
+  <div id="w4" name="w4" class="reverse">
+    <span>
+      <h2><i>Aging or Growth</i></h2>
+      <img src="4-1.jpg" />
+    </span>
+    <span>
+      <h2><i>Aging or Growth</i></h2>
+      <small>MEDIUM</small><br>
+      <p>Ceramic, Wire, Plastic clay</p>
+      <small>DIMENSIONS</small><br>
+      <p>17 &times; 17 &times; 9 cm, 17 &times; 17 &times; 12 cm, 17 &times; 17 &times; 25 cm</p>
+      <small>CAPTION</small><br>
+      <p>The bowls represent the aging of body. In contrast, aging actually enriches us spiritually, as we gain more life experiences and our intellect grows. And it is expressed through the growth of flowers. The idea came from seeing my mother so pessimistic about aging. There are also many anti-aging products on the market. It is true that physical aging may be something we do not want to face, but we must not forget that aging can also enrich us. I devised a way to make the cracks in the bowl.</p>
+    </span>
+  </div>
+
+  <div id="w5" name="w5" class="normal">
+    <span>
+      <h2><i>Humans, Nature, Time</i></h2>
+      <img src="5.jpg" />
+    </span>
+    <span>
+      <h2><i>Humans, Nature, Time</i></h2>
+      <small>MEDIUM</small><br>
+      <p>Oil on canvas</p>
+      <small>DIMENSIONS</small><br>
+      <p>33.3 &times; 45.5 cm</p>
+      <small>CAPTION</small><br>
+      <p>This is based on an empty house in my neighbourhood and I imagined where the house remained empty and the surrounding area became like a forest. I used the two-point perspective method to make the house look bigger, in order to show that even though it is empty, the spirit of the people who lived there still remains and it looks solemn. I decided to paint with oil because of my desire to record the old people (who lived in the house) because oil painting can be preserved for a long time.</p>
+    </span>
+  </div>
+
+
+
+
+
+  <div id="gallery" name="gallery">
+    <h2 class="t">GALLERY</h2>
+    <div onclick="image(0)">
+      <span>
+        <span></span>
+        <span></span>
+      </span>
+      <h3 id="view" style="margin: 145px 0 10px 0"></h3>
+    </div>
+  </div>
+  <footer style="text-align:center"><small>© 2021-2022 TGUISS DP 10th</small></footer>
+
+
+  <div id="img">
+    <span id="imgheader">
+      <h3><i></i></h3>
+      <svg onclick="remove()" width="64" height="64" viewBox="0 0 16.933333 16.933333">
+        <path d="M 3.2339788,3.2339786 13.699355,13.699355" />
+        <path d="M 3.2339788,13.699355 13.699355,3.2339786" />
+      </svg>
+    </span>
+    <span id="viewbox">
+      <span id="image"></span>
+      <span onclick="image(imgnum-1)" id="leftp">
+        <svg width="64" height="64" viewBox="0 0 16.933333 16.933333" id="left">
+          <path d="M 11.129783,3.2339791 5.8970947,8.4666671 11.129783,13.699354" />
+        </svg>
+      </span>
+      <span onclick="image(imgnum+1)" id="rightp">
+        <svg width="64" height="64" viewBox="0 0 16.933333 16.933333" id="right">
+          <path d="M 5.8035505,3.2339791 11.036239,8.4666671 5.8035505,13.699354" />
+        </svg>
+      </span>
+    </span>
+  </div>
+
+
+  <script>
+  const img = [{
+      type: "i",
+      amount: 2,
+      content1: "0-1.jpg",
+      content2: "0-2.jpg",
+      name: "Indirect Expression of People"
+    }, {
+      type: "i",
+      amount: 2,
+      content1: "1-1.jpg",
+      content2: "1-2.jpg",
+      name: "Shedding"
+    }, {
+      type: "i",
+      amount: 2,
+      content1: "2-1.jpg",
+      content2: "2-2.jpg",
+      name: "Shy Love"
+    }, {
+      type: "i",
+      amount: 2,
+      content1: "3-1.jpg",
+      content2: "3-2.jpg",
+      name: "Human Ego"
+    }, {
+      type: "i",
+      amount: 2,
+      content1: "4-1.jpg",
+      content2: "4-2.jpg",
+      name: "Aging or Growth"
+    }, {
+      type: "i",
+      amount: 1,
+      content1: "5.jpg",
+      name: "Humans, Nature, Time"
+    }];
+    var i = 0,
+      v = 0;
+    for (var a = 0; a < img.length; a++) {
+      if (img[a].type == "i") {
+        i += img[a].amount;
+      } else {
+        v += img[a].amount;
+      }
+    }
+    if (i > 0) {
+      document.getElementById('view').innerHTML = "View " + i + " photo";
+    }
+    if (i > 1) {
+      document.getElementById('view').innerHTML += "s";
+    }
+    if (v > 0) {
+      document.getElementById('view').innerHTML += " and " + v + " video";
+    }
+    if (v > 1) {
+      document.getElementById('view').innerHTML += "s";
+    }
+  </script>
+  <script id="text/javascript" src="../flex.js"></script>
+</body>
+
+</html>

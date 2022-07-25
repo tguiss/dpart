@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="shortcut icon" href="../icon.ico" type="image/vnd.microsoft.icon">
+  <title>Y. T.</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;350;400;500;600&display=swap" rel="stylesheet">
+  <style>
+    ::selection {
+      background: #CACACA;
+      color: black;
+    }
+    #top h1::before{
+      background: #cacaca;
+    }
+    div#gallery > div > span > span {
+      border: 0.5rem solid #cacaca;
+    }
+
+    #top h1::before{
+      content: '';
+      width: 0%;
+      height: 2rem;
+      transform: translate(-2.5%,3rem);
+      position: absolute;
+      border-radius: 10px;
+      z-index: -1;
+      transition: width 1s;
+    }
+
+    div span#index h4::before {
+      background: #cacaca;
+    }
+  </style>
+  <link rel="stylesheet" href="../flex.css">
+</head>
+
+<body onkeydown="keyd(event)">
+  <div id="top" name="top" class="reverse">
+    <span>
+      <img src="0-2.jpg"></img>
+    </span>
+    <span>
+      <span style="display:flex; margin-bottom: 1rem; align-items:center;" id="title">
+        <span>
+          <h1>Y. T.</h1>
+        </span>
+        <span id="space"></span>
+        <span>
+          <h4 style="margin: 0;">EXHIBITION TITLE</h4>
+          <h2 style="padding: 0;"><i>Engulf</i></h2>
+        </span>
+      </span>
+      <h4>INDEX</h4>
+      <ul>
+        <li><a href="#cr">
+            <h3>Curatorial Rationale</h3>
+          </a></li>
+      </ul>
+      <span id="index">
+        <h4>WORKS</h4>
+        <ul style="width:100%">
+          <li><a href="#works">
+              <h3>Oblivion</h3>
+            </a></li>
+          <li><a href="#w2">
+              <h3>Intangible Compliance</h3>
+            </a></li>
+          <li><a href="#w3">
+              <h3>Doubt</h3>
+            </a></li>
+          <li><a href="#w4">
+              <h3>Disconnected Connections</h3>
+            </a></li>
+          <li><a href="#w5">
+              <h3>TGUISS 10th DP Art website</h3>
+            </a></li>
+        </ul>
+      </span>
+      <ul>
+        <li><a href="#gallery">
+            <h3>Gallery</h3>
+          </a></li>
+      </ul>
+    </span>
+  </div>
+  <div id="cr" name="cr">
+    <h2 class="t">RATIONALE</h2>
+    <p>The series of artworks in my exhibition presents the theme of <i>Engulf</i>: a state in which several phenomena overwhelm or encompass us. Through sculptures, polyptych drawings, or digital animations, the pieces focus on how many things
+      engulf individuals, either physically or spiritually. Each artwork incorporates repetition, either in motifs or material. Nevertheless, I aimed to give different meanings to the repetition in each piece through the selection of material, form,
+      and composition. While the artworks do not have any particular connection with each other, they reflect my experience as a teenager and a student. By integrating the audience within the works, I intend to immerse the audience with the theme.
+    </p>
+    <p>The exhibition consists of four artworks. <i>Oblivion</i> reflects individuals being unconscious about human advancement such as technology that supports their lives. The wooden cubic lattice characterizes the artwork, resembling the structure
+      of a building, and expresses the regularity of civilization. By taking the shape of a chair, the audience can sit and become a part of the piece and feel the individual wooden bars supporting them.</p>
+    <p><i>Intangible Compliance</i> shows the numerous social constraints that restrain our thoughts and acts. The installation reveals the constraints as pointing hands made of various media, each addressing a different social constraint.</p>
+    <p><i>Doubt</i> is a series of acrylic paintings reflecting ourselves being unsure about our identity. Words form the shape of the head, resembling the anguish that overwhelms an individual when defining their identity. The primary colors imply
+      identity shaping ourselves, while the reflective surface prompts the audience to look back at themselves.</p>
+    <p><i>Disconnected Connections</i> is a digital animation portraying the simultaneous connection and disconnection that engulfs us when using the internet. The icon-headed passersby represent anonymity and how the internet lacks humane
+      communication compared to the real world. The looping playback of the work reflects the endless information that pours in.</p>
+    <p>Since I did not create a particular flow to the exhibition, I placed the artworks so the viewers could individually appreciate the works. I have allocated Oblivion and Intangible Compliance in the middle of the exhibition space to utilize the
+      characteristics of three-dimensional art. Consequently, the audience can observe the artwork from all angles and understand the concept of 'engulf'. Through this exhibition, I aim to have the audience look back on how several phenomena engulf
+      them in their lives.</p>
+  </div>
+  <h2 class="t" id="works" name="works">WORKS</h2>
+  <div id="w1" name="w1" class="normal">
+    <span>
+      <h2><i>Oblivion</i></h2>
+      <img src="1-2.jpg" />
+    </span>
+    <span>
+      <h2><i>Oblivion</i></h2>
+      <small>MEDIUM</small><br>
+      <p>Japanese cedar wood</p>
+      <small>DIMENSIONS</small><br>
+      <p>72.0 &times; 72.0 &times; 72.0 cm</p>
+      <small>CAPTION</small><br>
+      <p>Through this project, I aim to symbolize human civilization that supports us. The artwork takes the shape of a chair since I wanted to express individuals (the audience) unconsciously sitting on the civilized system upholding them. Thus,
+        the audience also becomes a part of the artwork. In terms of material, I used wooden bars with perpendicular and parallel arrangements; these represent the regularity of the human order and imitate the structure of a building.
+      </p>
+    </span>
+  </div>
+  <div id="w2" name="w2" class="reverse">
+    <span>
+      <h2><i>Intangible Compliance</i></h2>
+      <img src="2-1.jpg" />
+    </span>
+    <span>
+      <h2><i>Intangible Compliance</i></h2>
+      <small>MEDIUM</small><br>
+      <p>Mixed media</p>
+      <small>DIMENSIONS</small><br>
+      <p>120 &times; 60 &times; 30 cm</p>
+      <small>CAPTION</small><br>
+      <p>This installation aims to materialize social constraints limiting our acts and thoughts. As a student, I often feel peer pressure: our peers inducing or influencing us. I created the shape of a hand using various media. It looks as if it
+        is giving orders, similar to the "I Want YOU for U.S. Army" advertisement. I pointed the hands towards a single point where the audience could stand and feel the constraints. The various media represent a variety of constraints.
+      </p>
+    </span>
+  </div>
+
+  <div id="w3" name="w3" class="normal">
+    <span>
+      <h2><i>Doubt</i></h2>
+      <img src="3-1.jpg" />
+    </span>
+    <span>
+      <h2><i>Doubt</i></h2>
+      <small>MEDIUM</small><br>
+      <p>Acrylic on LP record jacket</p>
+      <small>DIMENSIONS</small><br>
+      <p>141.0 &times; 31.5 cm</p>
+      <small>CAPTION</small><br>
+      <p>This project aims to communicate how we face identity crises; we become unsure of ourselves. Three out of the four record jackets read "VALUES," "ROLE," and "APPEARANCE": each an aspect of our identity. I used primary colors to represent
+        the identity that embodies us (the primary colors can create most colors). The fourth screen shows the combination of the three aspects forming the shape of the head. The reflective sheets enable the audience to reflect upon their identity.
+      </p>
+    </span>
+  </div>
+
+  <div id="w4" name="w4" class="reverse">
+    <span>
+      <h2><i>Disconnected Connections</i></h2>
+      <video autoplay loop muted src="4.mp4" />
+    </span>
+    <span>
+      <h2><i>Disconnected Connections</i></h2>
+      <small>MEDIUM</small><br>
+      <p>Digital animation</p>
+      <small>DURATION</small><br>
+      <p>10 second loop</p>
+      <small>CAPTION</small><br>
+      <p>For this animation, I aimed to communicate the simultaneous connection and isolation when using the internet. The internet allows us to connect with many others, although anonymity limits human communication. I portrayed a telephone box,
+        as it is often a symbol of loneliness. The icon-headed passersby represent the users hiding their true character. Through using black and white for the surrounding environment, I aimed to convey the incomplete communication within the
+        internet.
+      </p>
+    </span>
+  </div>
+
+  <div id="w5" name="w5" class="normal">
+    <span>
+      <h2><i>(TGUISS DP10TH Art Exhibition Website)</i></h2>
+      <img src="5.jpg" />
+    </span>
+    <span>
+      <h2><i>(TGUISS DP10TH Art Exhibition Website)</i></h2>
+      <small>MEDIUM</small><br>
+      <p>Website Building, Website Graphics</p>
+      <small>USED LANGUAGE</small><br>
+      <p>HTML, JavaScript, CSS</p>
+      <small>CAPTION</small><br>
+      <p>I have created this website for the online exhibition. Usually, many people create websites using builders. Although, I built this website from scratch. I wanted to experience a creative process going through a conversation between the
+        creator and the user, rather than my own and sole voice.
+      </p>
+    </span>
+  </div>
+
+  <div id="gallery" name="gallery">
+    <h2 class="t">GALLERY</h2>
+    <div onclick="image(0)">
+      <span>
+        <span></span>
+        <span></span>
+      </span>
+      <h3 id="view" style="margin: 145px 0 10px 0"></h3>
+    </div>
+  </div>
+  <footer style="text-align:center"><small>© 2021-2022 TGUISS DP 10th</small></footer>
+
+
+  <div id="img">
+    <span id="imgheader">
+      <h3><i></i></h3>
+      <svg onclick="remove()" width="64" height="64" viewBox="0 0 16.933333 16.933333">
+        <path d="M 3.2339788,3.2339786 13.699355,13.699355" />
+        <path d="M 3.2339788,13.699355 13.699355,3.2339786" />
+      </svg>
+    </span>
+    <span id="viewbox">
+      <span id="image"></span>
+      <span onclick="image(imgnum-1)" id="leftp">
+        <svg width="64" height="64" viewBox="0 0 16.933333 16.933333" id="left">
+          <path d="M 11.129783,3.2339791 5.8970947,8.4666671 11.129783,13.699354" />
+        </svg>
+      </span>
+      <span onclick="image(imgnum+1)" id="rightp">
+        <svg width="64" height="64" viewBox="0 0 16.933333 16.933333" id="right">
+          <path d="M 5.8035505,3.2339791 11.036239,8.4666671 5.8035505,13.699354" />
+        </svg>
+      </span>
+    </span>
+  </div>
+
+
+  <script>
+    const img = [{
+      type: "i",
+      amount: 2,
+      content1: "0-1.jpg",
+      content2: "0-2.jpg",
+      name: "Engulf"
+    }, {
+      type: "i",
+      amount: 3,
+      content1: "1-1.jpg",
+      content2: "1-2.jpg",
+      content3: "1-3.jpg",
+      name: "Oblivion"
+    }, {
+      type: "i",
+      amount: 3,
+      content1: "2-1.jpg",
+      content2: "2-2.jpg",
+      content3: "2-3.jpg",
+      name: "Intangible Compliance"
+    }, {
+      type: "i",
+      amount: 5,
+      content1: "3-1.jpg",
+      content2: "3-2.jpg",
+      content3: "3-3.jpg",
+      content4: "3-4.jpg",
+      content5: "3-5.jpg",
+      name: "Doubt"
+    }, {
+      type: "v",
+      amount: 1,
+      content1: "4.mp4",
+      loop: true,
+      name: "Disconnected Connections"
+    }, {
+      type: "i",
+      amount: 1,
+      content1: "5.jpg",
+      name: "TGUISS DP10TH Art Exhibition Website"
+    }];
+    var i = 0,
+      v = 0;
+    for (var a = 0; a < img.length; a++) {
+      if (img[a].type == "i") {
+        i += img[a].amount;
+      } else {
+        v += img[a].amount;
+      }
+    }
+    if (i > 0) {
+      document.getElementById('view').innerHTML = "View " + i + " photo";
+    }
+    if (i > 1) {
+      document.getElementById('view').innerHTML += "s";
+    }
+    if (v > 0) {
+      document.getElementById('view').innerHTML += " and " + v + " video";
+    }
+    if (v > 1) {
+      document.getElementById('view').innerHTML += "s";
+    }
+  </script>
+  <script id="text/javascript" src="../flex.js"></script>
+</body>
+
+</html>
